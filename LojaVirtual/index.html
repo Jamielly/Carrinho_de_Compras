@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja Virtual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#quem-somos">Quem Somos</a></li>
+        <li><a href="#nosso-time">Nosso Time</a></li>
+        <li><a href="#nossos-produtos">Nossos Produtos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="carousel">
+    <div class="carousel-item">
+      <img src="product-1.jpg" alt="Imagem 1">
+      <h2>A visão de um lugar calmo e aconchegante é o melhor remédio para a tristeza da vida adulta</h2>
+    </div>
+    <div class="carousel-item">
+      <img src="product-2.jpg" alt="Imagem 2">
+      <h2>Observar ao horizonte um pôr do sol na praia </h2>
+    </div>
+    <div class="carousel-item">
+      <img src="product-3.jpg" alt="Imagem 3">
+      <h2>Já imaginou estar em um lugar assim?</h2>
+    </div>
+    <!-- Adicione as demais div.carousel-item -->
+  </section>
+
+  <section id="quem-somos">
+    <div class="container">
+      <h2>Quem Somos</h2>
+      <img src="about-banner.jpg" alt="Imagem Quem Somos">
+      <p>Somos uma loja de fotografias, na qual, sempre mostramos através das lentes nossa paixão e talento.</p>
+    </div>
+  </section>
+
+  <section id="nosso-time">
+    <div class="container">
+      <h2>Nosso Time</h2>
+      <div class="team-member">
+        <img src="membro1.jpg" alt="Membro 1">
+        <h3>Membro 1:Allan R. </h3>
+      </div>
+      <div class="team-member">
+        <img src="membro2.jpg" alt="Membro 2">
+        <h3>Membro 2:Marianna M.</h3>
+      </div>
+      <div class="team-member">
+        <img src="membro3.jpg" alt="Membro 3">
+        <h3>Membro 3: José B.</h3>
+      </div>
+      <!-- Adicione as demais div.team-member -->
+    </div>
+  </section>
+
+  <section id="nossos-produtos">
+    <div class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="product-card">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Nome do Produto 1</h3>
+        <p>Descrição do Produto 1</p>
+        <span>R$ 99,99</span>
+      </div>
+      <div class="product-card">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Nome do Produto 2</h3>
+        <p>Descrição do Produto 2</p>
+        <span>R$ 99,99</span>
+      </div>
+      <div class="product-card">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Nome do Produto 3</h3>
+        <p>Descrição do Produto 3</p>
+        <span>R$ 99,99</span>
+      </div>
+      <!-- Repita o bloco de div.product-card para cada produto -->
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-info">
+        <p>Endereço: Rua Exemplo, 123</p>
+        <p>Telefone: (11) 98765-4321</p>
+      </div>
+      <div class="social-media">
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+      </div>
+    </div>
+  </footer>
+<!-- Elemento de montagem para o React -->
+<div id="carrinho-compras"></div>
+  <script src="script.js"></script>
+</body>
+</html>

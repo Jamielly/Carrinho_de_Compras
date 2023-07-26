@@ -1,0 +1,150 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos do header e navegação */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Estilos do carousel */
+  #carousel {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-item h2 {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  /* Estilos da seção Quem Somos */
+  #quem-somos {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #quem-somos h2 {
+    margin-bottom: 20px;
+  }
+  
+  #quem-somos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos da seção Nosso Time */
+  #nosso-time {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #nosso-time h2 {
+    margin-bottom: 20px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Estilos da seção Nossos Produtos */
+  #nossos-produtos {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #nossos-produtos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+  
